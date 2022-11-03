@@ -2,10 +2,20 @@ html {
     margin: 0px;
     padding: 0px;
     background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 6dip;
+}
+
+window-title {
+    display: block;
+    height:30dip;
+    background: red;
+    text-align: center;
 }
 
 body {
-color:white;
+    color: blue;
     margin: 0px;
     backdrop-filter: blur(20px);
 }
